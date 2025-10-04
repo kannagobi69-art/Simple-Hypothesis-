@@ -1,0 +1,213 @@
+<style>
+.simple-hypothesis-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9fbfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  color: #333;
+  line-height: 1.6;
+}
+.sh-title {
+  text-align: center;
+  color: #1a5fb4;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  border-bottom: 3px solid #4d9de0;
+  padding-bottom: 10px;
+}
+.sh-section {
+  margin-bottom: 25px;
+}
+.sh-subtitle {
+  color: #2c6fbb;
+  font-size: 20px;
+  margin: 20px 0 12px;
+  display: flex;
+  align-items: center;
+}
+.sh-subtitle::before {
+  content: "•";
+  color: #4d9de0;
+  font-size: 28px;
+  margin-right: 10px;
+}
+.definition-box {
+  background: #e6f2ff;
+  padding: 16px;
+  border-left: 4px solid #1a5fb4;
+  border-radius: 0 8px 8px 0;
+  margin: 15px 0;
+  font-style: italic;
+}
+.characteristic {
+  background: white;
+  padding: 12px 16px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 4px solid #4d9de0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.example-item, .exercise-item {
+  background: #f0f8ff;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 4px solid #2e8b57;
+}
+.exercise-item {
+  border-left-color: #d35400;
+}
+.btn-toggle {
+  background: #4d9de0;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 15px 0;
+  display: block;
+  width: 100%;
+  transition: background 0.3s;
+}
+.btn-toggle:hover {
+  background: #2c6fbb;
+}
+.answers {
+  display: none;
+  margin-top: 15px;
+  padding: 15px;
+  background: #fff8e1;
+  border-radius: 8px;
+  border-left: 4px solid #ffb300;
+}
+.answers h4 {
+  color: #e65100;
+  margin-top: 0;
+}
+.answer-pair {
+  margin: 12px 0;
+  padding-left: 10px;
+  border-left: 2px solid #ffe0b2;
+}
+.h0 { color: #d32f2f; font-weight: 600; }
+.h1 { color: #2e7d32; font-weight: 600; }
+.checklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+.check-item {
+  background: #e8f5e9;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.check-item::before {
+  content: "✓";
+  color: #2e7d32;
+  font-weight: bold;
+  margin-right: 6px;
+}
+@media (max-width: 600px) {
+  .simple-hypothesis-container {
+    padding: 15px;
+  }
+  .sh-title {
+    font-size: 22px;
+  }
+}
+</style>
+
+<div class="simple-hypothesis-container">
+  <h1 class="sh-title">Simple Hypothesis in Nursing Research <br> Prepared by K.Kannan.M.Sc (N) </h1>
+
+  <!-- Definition -->
+  <div class="sh-section">
+    <h2 class="sh-subtitle">Definition</h2>
+    <div class="definition-box">
+      A <strong>simple hypothesis</strong> is a testable statement that predicts a directional relationship between <em>two variables only</em>: one independent variable (cause) and one dependent variable (effect).
+    </div>
+    <p><strong>Example:</strong> <em>“The lower the level of haemoglobin, the higher the risk of infection among postpartum women.”</em></p>
+  </div>
+
+  <!-- Characteristics -->
+  <div class="sh-section">
+    <h2 class="sh-subtitle">Key Characteristics</h2>
+    <div class="characteristic"><strong>1. Only Two Variables</strong><br>One independent (IV) and one dependent (DV) variable.</div>
+    <div class="characteristic"><strong>2. Directional Relationship</strong><br>Predicts how variables change (e.g., “the more… the less…”).</div>
+    <div class="characteristic"><strong>3. Testable & Measurable</strong><br>Both variables must be operationally defined and quantifiable.</div>
+    <div class="characteristic"><strong>4. Clear & Concise Language</strong><br>Avoids vague terms; uses precise wording.</div>
+    <div class="characteristic"><strong>5. Based on Theory or Evidence</strong><br>Rooted in prior research, clinical observation, or biological plausibility.</div>
+    <div class="characteristic"><strong>6. Can Be Null (H₀) or Alternative (H₁)</strong><br>Formally stated for statistical testing.</div>
+    <div class="characteristic"><strong>7. May Imply Causality</strong><br>Suggests cause-effect, but causation requires experimental design.</div>
+    
+    <h3 style="color:#1a5fb4; margin-top:15px;">Quick Checklist:</h3>
+    <div class="checklist">
+      <div class="check-item">Only 2 variables</div>
+      <div class="check-item">Directional</div>
+      <div class="check-item">Measurable</div>
+      <div class="check-item">Concise wording</div>
+      <div class="check-item">Evidence-based</div>
+      <div class="check-item">Testable</div>
+    </div>
+  </div>
+
+  <!-- Examples -->
+  <div class="sh-section">
+    <h2 class="sh-subtitle">5 Nursing Examples (Simple Style)</h2>
+    <div class="example-item">1. The higher the nurse-to-patient ratio, the lower the patient satisfaction scores.</div>
+    <div class="example-item">2. The more frequent the hand hygiene compliance, the fewer hospital-acquired infections occur.</div>
+    <div class="example-item">3. The earlier the ambulation after surgery, the shorter the hospital stay.</div>
+    <div class="example-item">4. The greater the sleep quality in ICU nurses, the lower their reported burnout levels.</div>
+    <div class="example-item">5. The more consistent the wound care documentation, the faster the healing time in diabetic foot ulcers.</div>
+  </div>
+
+  <!-- Exercises -->
+  <div class="sh-section">
+    <h2 class="sh-subtitle">10 Practice Exercises: Write H₀ and H₁</h2>
+    <div class="exercise-item">1. The higher the frequency of handwashing by nurses, the lower the rate of hospital-acquired infections.</div>
+    <div class="exercise-item">2. The more hours of sleep a nurse gets, the lower their reported level of burnout.</div>
+    <div class="exercise-item">3. The earlier postoperative patients ambulate, the shorter their length of hospital stay.</div>
+    <div class="exercise-item">4. The greater the patient’s pain score, the higher their anxiety level.</div>
+    <div class="exercise-item">5. The more consistent the wound dressing changes, the faster the healing time.</div>
+    <div class="exercise-item">6. The lower the nurse staffing ratio, the higher the patient fall rate.</div>
+    <div class="exercise-item">7. The more frequently nurses round on patients hourly, the fewer call light uses occur.</div>
+    <div class="exercise-item">8. The higher the dose of preoperative education given, the lower the patient’s postoperative pain score.</div>
+    <div class="exercise-item">9. The longer the duration of breastfeeding education, the higher the rate of exclusive breastfeeding at 6 weeks.</div>
+    <div class="exercise-item">10. The more social support a postpartum mother receives, the lower her postpartum depression score.</div>
+
+    <button class="btn-toggle" onclick="toggleAnswers()">🔽 Show/Hide Answer Key</button>
+    <div id="answerKey" class="answers">
+      <h4>Answer Key: H₀ and H₁</h4>
+      <div class="answer-pair"><span class="h0">H₀:</span> No relationship between handwashing frequency and infection rate.<br><span class="h1">H₁:</span> Higher handwashing frequency → lower infection rate.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Sleep hours do not affect burnout.<br><span class="h1">H₁:</span> More sleep → lower burnout.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Ambulation time does not affect hospital stay.<br><span class="h1">H₁:</span> Earlier ambulation → shorter stay.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Pain score is unrelated to anxiety.<br><span class="h1">H₁:</span> Higher pain → higher anxiety.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Wound dressing consistency does not affect healing.<br><span class="h1">H₁:</span> More consistent dressings → faster healing.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Staffing ratio does not affect fall rate.<br><span class="h1">H₁:</span> Lower staffing → higher falls.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Hourly rounding does not affect call light use.<br><span class="h1">H₁:</span> More rounding → fewer call lights.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Preop education dose does not affect pain.<br><span class="h1">H₁:</span> Higher education dose → lower pain.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Breastfeeding education duration does not affect exclusivity.<br><span class="h1">H₁:</span> Longer education → higher exclusivity.</div>
+      <div class="answer-pair"><span class="h0">H₀:</span> Social support does not affect PPD scores.<br><span class="h1">H₁:</span> More support → lower depression scores.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleAnswers() {
+  const answers = document.getElementById('answerKey');
+  if (answers.style.display === 'block') {
+    answers.style.display = 'none';
+  } else {
+    answers.style.display = 'block';
+  }
+}
+</script>
